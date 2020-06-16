@@ -1,0 +1,19 @@
+<div id="search-temp">
+    <h1>Search</h1>
+    <div class="search">
+        <form (submit)="onSubmit($event)">
+            <input  type="text" [(ngModel)]="query" class="search-input"
+            [ngModelOptions]="{standalone: true}" placeholder="search">
+            <input type="submit" class="search-submit" value="Search">
+        </form>
+    </div>
+    <ul *ngIf="brews">
+        <li *ngFor="let brew of brews">
+            <div class="brew-temp">
+                <p class="name"><b>{{ brew.name }}</b></p>
+                <p class="country">{{ brew.country }}</p>
+                <a [routerLink]="['/details', brew.id]" class="detail-link">Details</a>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,45 @@
+<div id="nav">
+  <img routerLink="/home" src="./assets/astronaut.svg">
+  <a routerLink="/home" routerLinkActive="active-link">Home</a>
+  <a routerLink="/search" routerLinkActive="active-link">Search</a>
+</div>
+<router-outlet></router-outlet>
+<footer>
+  
+  <div class="footer-temp">
+    <div class="contact-temp">
+      <div class="contact-info">
+        <p class="contact-header">Contact us</p>
+        <div class="info-wrap">
+          <div class="left-info">
+            <p><img class="location" src="../assets/location.svg"><b>Address: </b>765 street, Copenhagen</p>
+            <div class="line-break"></div>
+            <p><img class="phone"src="../assets/phone.svg"><b>Phone: </b>12 34 56 78</p>
+          </div>
+          <div class="right-info">
+            <p><img class="email-image" src="../assets/mail.svg"><b>Email: </b>sebastiankyhl@hotmail.com</p>
+            <div class="line-break"></div>
+            <p><img class="open-hours" src="../assets/clock.svg"><b>Phone: </b>12 34 56 78</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <p>Have a question?</p>
+        <form>
+          <div class="input-temp">
+            <input type="text" class="name-input" placeholder="Name" required>
+            <input type="email" class="email-input" placeholder="Email" required>
+          </div>
+          <div class="textarea-temp">
+            <textarea class="message-textarea" placeholder="Message" required></textarea>
+            <input type="submit" class="submit-input" value="Send message &#10146;" >
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="copyright-temp">
+    </div>
+  </div>
+</footer>
+
+ 

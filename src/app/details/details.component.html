@@ -1,0 +1,17 @@
+
+
+<div id="details-temp">
+    <h1>Details</h1>
+    <ul *ngIf="detailedBrew">
+        <div class="brew-temp">
+            <p class="name"><b>{{detailedBrew.name}}</b></p>
+            <p class="brewery-type"><b>{{detailedBrew.brewery_type}}</b></p>
+            <p class="country">{{detailedBrew.country}}</p>
+            <p class="state">{{detailedBrew.state}}</p>
+            <p class="city">{{detailedBrew.city}}</p>
+            <p class="address">{{detailedBrew.street}}</p>
+            <p class="postal">{{detailedBrew.postal_code}}</p>
+            <p class="phone">{{detailedBrew.phone}}</p>
+        </div>
+    </ul>
+</div>

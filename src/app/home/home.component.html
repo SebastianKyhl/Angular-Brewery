@@ -1,0 +1,14 @@
+
+
+<div id="home-temp">
+    <h1>Breweries</h1>
+    <ul *ngIf="brews">
+        <li *ngFor="let brew of brews">
+            <div class="brew-temp">
+                <p class="name"><b>{{ brew.name }}</b></p>
+                <p class="country">{{ brew.country }}</p>
+                <a [routerLink]="['/details', brew.id]" class="detail-link">Details</a>
+            </div>
+        </li>
+    </ul>
+</div>

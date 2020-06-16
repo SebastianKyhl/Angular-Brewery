@@ -1,0 +1,32 @@
+#details-temp {
+    height: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        margin: 40px auto;
+    }
+}
+
+.brew-temp {
+    background: #f1f1f1;
+    padding: 1em;
+    margin-right: 10px;
+    height: 100%;
+    width: 350px;
+    margin: 5em auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: .3s;
+    border-radius: 10px;
+
+    p {
+        margin: .5rem 0;
+    }
+
+    p.name {
+        font-size: 2rem;
+    }
+}

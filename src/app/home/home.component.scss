@@ -1,0 +1,61 @@
+
+#home-temp {
+    height: 100%;
+    margin: auto 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    h1 {
+        margin: 40px auto;
+        color: #889491;
+    }
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        background: #f1f1f1;
+        padding: 1em;
+        margin-right: 10px;
+        width: 350px;
+        height: 350px;
+        margin: 5em auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 50%;
+        transition: .3s;
+
+        .brew-temp {
+            margin: auto 0;
+        }
+
+        p.name {
+            font-size: 1.2rem;
+        }
+
+        p.country {
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            flex-grow: 1;
+        }
+
+        a.detail-link {
+            text-decoration: none;
+            color: cornflowerblue;
+        }
+        
+    }
+
+    li:hover {
+        border-radius: 30%;
+    }
+}

@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 15px 15px 0 15px;
+}
+
+p {
+    color: #889491;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #12181b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6c7983;
+    border-radius: 30px;
+}
+
+
+
+
+
+
