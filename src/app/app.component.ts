@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularBrewery';
+
+  AlertOnSend(){
+    alert('Message successfully send!');
+  }
 }

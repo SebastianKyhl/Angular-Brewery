@@ -25,9 +25,9 @@
       </div>
       <div class="contact-form">
         <p>Have a question?</p>
-        <form>
+        <form id="footer-form" (submit)="AlertOnSend()">
           <div class="input-temp">
-            <input type="text" class="name-input" placeholder="Name" required>
+            <input id="text-input" type="text" class="name-input" placeholder="Name" required>
             <input type="email" class="email-input" placeholder="Email" required>
           </div>
           <div class="textarea-temp">

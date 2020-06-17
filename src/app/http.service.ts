@@ -20,4 +20,8 @@ export class HttpService {
   getBrew(query) {
     return this.http.get('https://api.openbrewerydb.org/breweries/search?query=' + query);
   }
+
+  getAutocompleteBeer(query) {
+    return this.http.get('https://api.openbrewerydb.org/breweries/autocomplete?query=' + query);
+  }
 }

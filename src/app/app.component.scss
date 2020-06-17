@@ -210,3 +210,22 @@ input[type = 'submit'] {
 input[type = 'submit']:active {
     border: 1px solid greenyellow;
 }
+
+
+
+/*  RESPONSIVE  */
+
+@media only screen and (max-width: 950px) {
+    .contact-temp {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .line-break {
+        width: 75%;
+    }
+}
